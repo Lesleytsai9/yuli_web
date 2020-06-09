@@ -1,0 +1,190 @@
+/* bootstrap引入 */
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css');
+
+/* fontawesome引入 */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+
+/* 字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap');
+
+
+html,body{
+	margin: 0;
+	padding: 0;
+}
+
+*{
+	font-family: 'Noto Sans TC', sans-serif;
+	/* border: 1px solid #999; */
+}
+.navbar{
+	background-color: rgba(51,102,153,.8)!important;
+}
+.navbar-brand > span{
+	color: #fff!important;
+	letter-spacing: 0.1em;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+
+.navbar-nav a{
+	font-size: 14px;
+	font-weight: 300;
+  	white-space: nowrap;
+  	transition-property: color;
+  	transition-duration: .3s;
+}
+.navbar-nav a:hover{
+	color: #20366b!important;
+}
+
+
+
+
+#news{
+	padding: 100px 0;
+}
+h3{
+	padding-bottom: 30px;
+	color: rgba(51,102,153,1);
+	letter-spacing: 0.1em;
+
+}
+.news{
+	margin-bottom: 30px;
+}
+span{
+	color: #fe5f55;
+}
+
+#about > .container{
+	padding: 100px 0;
+}
+#about > .container > .row h4{
+	font-size: 18px;
+	padding: 0 0px 15px 0px;
+	font-weight: 300;
+	line-height: 1.7em;
+}
+
+#about > .container > .row img{
+	margin: 0 auto;
+	width: 60%;
+	border-radius: 100%;
+	padding: 20px 0px;
+}
+
+#teacher{
+	background-color: #2470a0;
+}
+#teacher .teacherpic{
+	background-image: url('../img/teachers.jpg');
+	background-position: center;
+	background-size: cover;
+}
+#teacher .teacher-about{
+	padding: 100px 0;
+}
+#teacher .teacher-about > h3{
+	color: #fff;
+}
+#teacher .teacher-about > p{
+	color: #fff;
+	font-weight: 300;
+	padding-bottom: 35px;
+}
+
+#classroom{
+	padding: 80px 0 100px 0;
+}
+#classroom .class-block{
+	padding: 30px 30px 10px 30px;
+
+}
+
+#classroom .class-block > h4{
+	color: #555;
+	font-size: 20px;
+	padding-top: 20px;
+	letter-spacing: 0.1em;
+}
+#classroom .class-block > p{
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.8em;
+	padding: 10px 0px 20px 0;
+}
+
+
+
+#work{
+	padding: 80px 0;
+}
+#work > .container > .row > .col-md-4 > img{
+	padding: 15px 0;
+}
+
+
+#work > .container > .works-btn{
+	padding-top: 40px;
+}
+
+.honorpage h3{
+	padding: 80px 0;
+}
+.honorpage > .container > .honor-btn{
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+.honorpage{
+	background-image: url('../img/bg.jpg');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+} 
+
+
+#videopage{
+	background-color: #aaa;
+}
+#videopage > .row > .video{
+	padding: 20px 100px 50px 100px;
+}
+#videopage > .row > .text-center > h3{
+	padding-top: 80px;
+}
+#videopage > .row > .video-btn{
+	padding-bottom: 50px;
+}
+
+
+footer{
+	background-color: #555;
+}
+footer > .container{
+	padding: 10px 0;
+}
+footer p{
+	margin: 0 0;
+	color: #eee;
+	font-weight: 300;
+}
+
+
+@media (min-width: 992px){
+	.navbar-expand-lg .navbar-collapse{
+		justify-content: flex-end;
+	}
+}
+
+@media (max-width: 575.98px) {
+	body{
+		margin-top: 55px;
+	}
+}
+
+
+
+
